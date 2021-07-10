@@ -1,10 +1,14 @@
 import React from 'react'
-import { Question } from '../data/quiz.types';
+// import { Question } from '../data/quiz.types';
+import {firstQuiz} from '../data/quiz';
 
-const QuestionBox = ({ques}:{ques:Question}) => {
+const QuestionBox = () => {
     return (
         <div>
-            <h1>{ques.question}</h1>
+            <h1>{}</h1>
+            <div>
+                
+            </div>
         </div>
     )
 }

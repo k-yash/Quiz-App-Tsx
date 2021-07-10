@@ -1,9 +1,10 @@
-import {QuizData } from './quiz.types';
+import {QuizData } from '../Contexts/quiz.types';
 
 
 
-export const quizData: QuizData = {
+export const firstQuiz: QuizData = {
     
+        id:"12jdkf42356",
         quizName: "Basic Quiz",
         questions : [
             {

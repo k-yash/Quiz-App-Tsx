@@ -14,11 +14,11 @@ const App = () => {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path="/home" element= {<Home/>} />
+        <Route path="/" element= {<Home/>} />
         <Route path="/login" element= {<Login/>} />
         <Route path="/signup" element= {<Signup/>} />
         <Route path="/quizzes" element= {<Quizzes/>} />
-        {/* <Route path="/quizzes/:quizId" element= {<QuizPage/>}/> */}
+        <Route path="/quizzes/:quizId" element= {<QuizPage/>}/>
         <Route path="*" element= {<ErrorPage/>} />
       </Routes>
       {/* <QuizPage/> */}

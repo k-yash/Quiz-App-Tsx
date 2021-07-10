@@ -1,17 +1,15 @@
 import React from 'react'
-import {quizData} from '../data/quiz';
+import {firstQuiz} from '../data/quiz';
 import QuestionBox from '../Components/question';
-
+let score = 0;
 const QuizPage = () => {
     return (
         <div>
-            {quizData.questions.map((ques)=>{
-                return <QuestionBox ques = {ques} />
-            })}
             
+            {firstQuiz.questions[score].question}         
             
         </div>
     )
 }
 
-export default QuizPage
+export default QuizPage;
